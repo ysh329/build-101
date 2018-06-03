@@ -1,0 +1,5 @@
+PROJECT(hellobuild101)
+SET(SRC_LIST main.c)
+MESSAGE(STATUS "This is binary directory " ${hellobuild101_BINARY_DIR})
+MESSAGE(STATUS "This is source directory " ${hellobuild101_SOURCE_DIR})
+ADD_EXECUTABLE(hello ${SRC_LIST})
