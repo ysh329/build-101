@@ -1,0 +1,24 @@
+# CMake
+
+## installation
+
+First download and intall cmake [here](https://cmake.org/download/). 
+
+I executed this process using a container of docker image ubuntu:16.04 as below:
+
+```shell
+# update package and install prebuild tools
+apt update
+apt install -y wget
+apt-get install -y build-essential
+
+# download latest cmake from its website and unzip it
+mkdir ~/download && cd ~/download
+wget -c https://cmake.org/files/v3.11/cmake-3.11.3.tar.gz
+tar -zxvf cmake-3.11.3.tar.gz
+
+# install
+mkdir ~/software 
+mv cmake-3.11.3 ~/software/
+cd ~/software
+```
