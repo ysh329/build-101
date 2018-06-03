@@ -20,5 +20,21 @@ tar -zxvf cmake-3.11.3.tar.gz
 # install
 mkdir ~/software 
 mv cmake-3.11.3 ~/software/
-cd ~/software
+cd ~/software/cmake-3.11.3
+
+# build helper and choose installation directory
+# default build to system directory
+./bootstrap --help
+
+# build cmake
+./bootstrap --prefix=/root/software/cmake-3.11.3
+make
 ```
+Second, add `cmake` command to user's PATH: `~/.bashrc`.
+
+```shell
+# CMAKE
+export CMAKE_HOME=/root/software/cmake
+export PATH=$CMAKE_HOME/bin:$PATH
+```
+
