@@ -35,3 +35,9 @@ Scanning dependencies of target hello
 [100%] Linking C executable hello
 [100%] Built target hello
 ```
+
+Run binary executable file using command below or script `./run_hello.sh`:
+
+```shell
+./build/bin/hello
+```
