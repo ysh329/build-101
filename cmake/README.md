@@ -46,3 +46,33 @@ cmake version 3.11.3
 
 CMake suite maintained and supported by Kitware (kitware.com/cmake).
 ```
+
+## Step by Step
+
+### t1
+
+In-source compilation example.
+
+Keypoint:
+  
+- PROJECT  
+- SET
+- MESSAGE
+- ADD_EXECUTABLE
+
+### t2
+
+Out-source compilation example.
+
+Keypoint:
+
+- CMAKE_MINIMUM_REQUIRED
+- ADD_SUBDIRECTORY
+
+### t3
+
+More detailed out-source compilation example.
+
+Keypoint:
+
+- 
