@@ -49,7 +49,7 @@ CMake suite maintained and supported by Kitware (kitware.com/cmake).
 
 ## Step by Step
 
-### t1
+### t1_hello_world
 
 In-source compilation example.
 
@@ -60,7 +60,7 @@ Keypoint:
 - MESSAGE
 - ADD_EXECUTABLE
 
-### t2
+### t2_hello_world
 
 Out-source compilation example.
 
@@ -69,7 +69,7 @@ Keypoint:
 - CMAKE_MINIMUM_REQUIRED
 - ADD_SUBDIRECTORY
 
-### t3
+### t3_hello_world
 
 More detailed out-source compilation example.
 
