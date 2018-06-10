@@ -15,7 +15,7 @@ The command `make install` is equal to `make; make install`.
 CMake logs as below:
 
 ```shell
-root@a5165728184a:/home/yuanshuai/code/build-101/cmake/t3_hello_world# ./make.sh                    [24/57]
+root@a5165728184a:/home/yuanshuai/code/build-101/cmake/t3_hello_world# ./make.sh
 -- The C compiler identification is GNU 5.4.0
 -- The CXX compiler identification is GNU 5.4.0
 -- Check for working C compiler: /usr/bin/cc
@@ -27,7 +27,7 @@ root@a5165728184a:/home/yuanshuai/code/build-101/cmake/t3_hello_world# ./make.sh
 -- Check for working CXX compiler: /usr/bin/c++
 -- Check for working CXX compiler: /usr/bin/c++ -- works
 -- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done                                                           [12/57]
+-- Detecting CXX compiler ABI info - done
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
 -- DESTINATION: 
@@ -39,7 +39,7 @@ root@a5165728184a:/home/yuanshuai/code/build-101/cmake/t3_hello_world# ./make.sh
 -- Build files have been written to: /home/yuanshuai/code/build-101/cmake/t3_hello_world/build
 Scanning dependencies of target hello
 [ 50%] Building C object bin/CMakeFiles/hello.dir/main.c.o
-[100%] Linking C executable hello                                                                    [0/57]
+[100%] Linking C executable hello
 [100%] Built target hello
 [100%] Built target hello
 Install the project...
@@ -52,10 +52,8 @@ Install the project...
 -- Installing: /usr/local/bin/hello
 ```
 
-Run binary executable file using command below or script `./run_hello.sh`:
+Run binary executable file using command below or script `./run_hello_from_source.sh`:
 
 ```shell
 ./build/bin/hello
 ```
-
-
