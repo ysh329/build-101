@@ -57,3 +57,5 @@ Run binary executable file using command below or script `./run_hello_from_sourc
 ```shell
 ./build/bin/hello
 ```
+
+After `make install` executed, you can execute `hello` or `run_hello.sh` everywhere if you execute `cmake .. -DCMAKE_INSTALL_PATH=/usr`.
