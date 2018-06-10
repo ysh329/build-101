@@ -41,3 +41,5 @@ Run binary executable file using command below or script `./run_hello.sh`:
 ```shell
 ./build/bin/hello
 ```
+
+`make install` == `make; make install`
