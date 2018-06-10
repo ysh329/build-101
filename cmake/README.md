@@ -78,5 +78,5 @@ Keypoint:
 - CMAKE_INSTALL_PREFIX  
 `make install` install to one of three common directories:  
 1. Default: `/usr/local` use command `cmake ..`  
-2. System directory: use command `cmake -DCMAKE_INSTALL_PREFIX=/usr ..`  
-3. Others you defined directory: `cmake -DCMAKE_INSTALL_PREFIX=/PATH/YOU/DEFINED ..`
+2. System directory: `/usr` use command `cmake -DCMAKE_INSTALL_PREFIX=/usr ..`  
+3. Others you defined directory: use command `cmake -DCMAKE_INSTALL_PREFIX=/PATH/YOU/DEFINED ..`
