@@ -1,3 +1,1 @@
-asdfasdgalsdifjlaisjdfelisj
-as
-dfasfleiwjalf
+rm -rf build/
